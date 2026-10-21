@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Image Replacement Task</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="profile-card">
+    <h2>Choose Your Avatar</h2>
+    
+    <!-- The main image that will be replaced -->
+    <div class="avatar-container">
+      <img id="main-pic" src="https://images.unsplash.com/photo-1791396514886-73482009f832?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Main Profile Picture">
+    </div>
+
+    <!-- Clickable selector buttons -->
+    <div class="thumbnail-options">
+      <button class="avatar-btn active" data-img="https://images.unsplash.com/photo-1791396514886-73482009f832?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D">Avatar 1</button>
+      <button class="avatar-btn" data-img="https://plus.unsplash.com/premium_photo-1791830473747-7a0bac206183?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D">Avatar 2</button>
+      <button class="avatar-btn" data-img="https://plus.unsplash.com/premium_photo-1791312841777-844b59f5a72a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D">Avatar 3</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
